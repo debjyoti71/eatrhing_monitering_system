@@ -1,14 +1,3 @@
-/**
- * This program shows how we can get (estimate) the right sensitivity value for
- * the sensor.
- * 
- * This program will swipe from the lowest sensitivity estimate value to the
- * highest. The program will stop if the voltage reading result from the sensor
- * is within the specified tolerance limit or the sensitivity value has exceeded
- * the highest predetermined value (which in this case is considered failed to
- * be determined).
-*/
-
 #include <ZMPT101B.h>
 
 #define ACTUAL_VOLTAGE 220.0f // Change this based on actual voltage
@@ -21,8 +10,6 @@
 #define MAX_TOLLERANCE_VOLTAGE (ACTUAL_VOLTAGE + TOLLERANCE)
 #define MIN_TOLLERANCE_VOLTAGE (ACTUAL_VOLTAGE - TOLLERANCE)
 
-// ZMPT101B sensor output connected to analog pin A0
-// and the voltage source frequency is 50 Hz.
 ZMPT101B voltageSensor(A0, 50.0);
 
 void setup() {
