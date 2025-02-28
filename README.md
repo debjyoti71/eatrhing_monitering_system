@@ -17,9 +17,9 @@ A system for monitoring earthing voltage differences using **ZMPT101B voltage se
 ## **⚙️ Installation & Setup**
 ### **1️⃣ Install Required Libraries**
 Ensure you have the following libraries installed in your **Arduino IDE**:  
-- 📂 [Blynk Library](https://github.com/debjyoti71/eatrhing_monitering_system/blynk-library)  
-- 📂 [WiFiManager](https://github.com/debjyoti71/eatrhing_monitering_system/WiFiManager)  
-- 📂 [ZMPT101B Library](https://github.com/debjyoti71/eatrhing_monitering_system/ZMPT101B)  
+- 📂 [Blynk Library](https://github.com/debjyoti71/eatrhing_monitering_system/tree/main/libraries/blynk-library-master)  
+- 📂 [WiFiManager](https://github.com/debjyoti71/eatrhing_monitering_system/tree/main/libraries/WiFiManager) 
+- 📂 [ZMPT101B Library](https://github.com/debjyoti71/eatrhing_monitering_system/tree/main/libraries/ZMPT101B)  
 
 You can manually place them inside the `libraries/` folder.
 
@@ -81,4 +81,4 @@ This project is open-source under the **MIT License**. Feel free to modify and i
 
 ---
 
-📌 **Developed by**: [Debjyoti Ghosh](https://github.com/debjyoti71)  
+📌 **Developed by**: [Debjyoti Ghosh](https://github.com/debjyoti71) & [Biswajit Chaterjee](https://github.com/debjyoti71)
