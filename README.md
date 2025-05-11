@@ -47,7 +47,10 @@ You can manually place them inside the `libraries/` folder.
 - If the difference exceeds `5V`, the **relay is activated** to prevent unsafe conditions.  
 - Sensor data is **sent to Blynk** (if enabled) for remote monitoring.
 
-![Circuit Diagram](https://via.placeholder.com/600x300?text=Circuit+Diagram)
+## 🔌 Circuit Diagram
+
+![Circuit Diagram](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/EMS.svg?raw=true)
+
 
 ---
 
