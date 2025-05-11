@@ -81,4 +81,4 @@ This project is open-source under the **MIT License**. Feel free to modify and i
 
 ---
 
-📌 **Developed by**: [Debjyoti Ghosh](https://github.com/debjyoti71) & [Biswajit Chaterjee](https://github.com/debjyoti71)
+📌 **Developed by**: [Debjyoti Ghosh](https://github.com/debjyoti71) & [Biswajit Chaterjee](https://github.com/Biswajit9609)
