@@ -69,7 +69,7 @@ You can manually place them inside the `libraries/` folder.
 ## **📊 Data Monitoring**
 If **Blynk is enabled**, the system sends **real-time data** to the Blynk app.  
 
-![Blynk Dashboard](https://via.placeholder.com/800x400?text=Blynk+Dashboard)
+![Blynk Dashboard](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/ems_dashboard.jpeg)
 
 ---
 
