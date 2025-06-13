@@ -62,7 +62,7 @@ You can manually place them inside the `libraries/` folder.
 
 ## 🔌 Circuit Diagram
 
-![Circuit Diagram](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/EMS.svg?raw=true)
+![Circuit Diagram](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/eatrhing_monitering_system_schematic.jpg)
 
 ---
 
