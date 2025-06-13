@@ -1,7 +1,7 @@
 # **Earthing Monitoring System** ⚡  
 A system for monitoring earthing voltage differences using **ZMPT101B voltage sensors** and an **ESP32 microcontroller**, with optional **Blynk** integration for remote monitoring.
 
-![Earthing System](https://via.placeholder.com/800x400?text=Earthing+Monitoring+System)
+![Earthing System](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/Earthing_monitering_system_hardware.jpeg)
 
 ---
 
