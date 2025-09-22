@@ -1,7 +1,19 @@
 # **Earthing Monitoring System** ⚡  
 A system for monitoring earthing voltage differences using **ZMPT101B voltage sensors** and an **ESP32 microcontroller**, with optional **Blynk** integration for remote monitoring.
 
-![Earthing System](https://via.placeholder.com/800x400?text=Earthing+Monitoring+System)
+![Earthing System](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/Earthing_monitering_system_hardware.jpeg)
+
+---
+
+## 📚 Table of Contents
+- [Hardware Requirements](#-hardware-requirements)
+- [Installation & Setup](#️-installation--setup)
+- [How It Works](#-how-it-works)
+- [Circuit Diagram](#-circuit-diagram)
+- [Data Monitoring](#-data-monitoring)
+- [Troubleshooting](#-troubleshooting)
+- [License](#-license)
+- [Useful Links](#-useful-links)
 
 ---
 
@@ -15,10 +27,11 @@ A system for monitoring earthing voltage differences using **ZMPT101B voltage se
 ---
 
 ## **⚙️ Installation & Setup**
+
 ### **1️⃣ Install Required Libraries**
 Ensure you have the following libraries installed in your **Arduino IDE**:  
 - 📂 [Blynk Library](https://github.com/debjyoti71/eatrhing_monitering_system/tree/main/libraries/blynk-library-master)  
-- 📂 [WiFiManager](https://github.com/debjyoti71/eatrhing_monitering_system/tree/main/libraries/WiFiManager) 
+- 📂 [WiFiManager](https://github.com/debjyoti71/eatrhing_monitering_system/tree/main/libraries/WiFiManager)  
 - 📂 [ZMPT101B Library](https://github.com/debjyoti71/eatrhing_monitering_system/tree/main/libraries/ZMPT101B)  
 
 You can manually place them inside the `libraries/` folder.
@@ -26,8 +39,8 @@ You can manually place them inside the `libraries/` folder.
 ---
 
 ### **2️⃣ Upload the Code**
-- 🔹 Use **`Earthing_monitering_system_with_blynk.ino`** for remote monitoring via **Blynk**.  
-- 🔹 Use **`Earthing_monitering_system_wo_blynk.ino`** for offline monitoring.  
+- 🔹 Use **`Earthing_monitoring_system_with_blynk.ino`** for remote monitoring via **Blynk**.  
+- 🔹 Use **`Earthing_monitoring_system_wo_blynk.ino`** for offline monitoring.  
 - 🔹 To **calibrate**, upload **`calibrate.ino`** and note the **sensitivity values**.
 
 ---
@@ -47,18 +60,21 @@ You can manually place them inside the `libraries/` folder.
 - If the difference exceeds `5V`, the **relay is activated** to prevent unsafe conditions.  
 - Sensor data is **sent to Blynk** (if enabled) for remote monitoring.
 
-![Circuit Diagram](https://via.placeholder.com/600x300?text=Circuit+Diagram)
+## 🔌 Circuit Diagram
+
+![Circuit Diagram](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/eatrhing_monitering_system_schematic.jpg)
 
 ---
 
 ## **📊 Data Monitoring**
 If **Blynk is enabled**, the system sends **real-time data** to the Blynk app.  
 
-![Blynk Dashboard](https://via.placeholder.com/600x300?text=Blynk+Dashboard)
+![Blynk Dashboard](https://github.com/debjyoti71/eatrhing_monitering_system/blob/main/Schematics/ems_dashboard.jpeg)
 
 ---
 
 ## **📌 Troubleshooting**
+
 ### **🔴 WiFi Not Connecting?**  
 ✅ Ensure correct **SSID & Password** in the code.  
 ✅ Use **WiFiManager** to set credentials dynamically.  
